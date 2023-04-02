@@ -21,10 +21,12 @@ More detail
 Add a role to assume from GitHub Actions.
 
 See sample code in this repository.
+
 [./terraform/aws/iam.tf](./terraform/aws/iam.tf)
 
 ### Step3: Create a workflow
 See sample code in this repository.
+
 [./.github/workflows/terraform-aws.yml](./.github/workflows/terraform-aws.yml)
 
 Don't forget to add a secret, AWS_ROLE_TO_ASSUME, to repo.
